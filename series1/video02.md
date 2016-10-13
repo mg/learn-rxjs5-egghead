@@ -6,7 +6,7 @@ Observable is not an emitter, but a powerful version of a function.
 - The contents of an observable is **lazy** and won't run unless called.
 - Both are **synchronous**.
 - Major difference is a function can return only once, but an observable can call **next()** as often as needed.
-- Also, we can call **async** code inside an observable body, and this code will we async with respect to the caller.
+- Also, we can call **async** code inside an observable body, and this code will be async with respect to the caller.
 
 ```js
 function foo() {
