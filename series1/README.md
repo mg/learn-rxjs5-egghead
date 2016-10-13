@@ -15,3 +15,5 @@ An observable is a way to deliver values from a producer to a consumer where the
 The observer exposes three functions; ``next()``, ``error()``, and ``completed()`` that the observable uses to push various values and events to the observer. The observable returns an optional unsubscribe function to clean up any resources that it uses. 
 
 The observable is the foundation type for the Rx **operators** that we use to compose complex asynchronous operations.
+
+More on Rx creators: http://reactivex.io/documentation/operators.html
