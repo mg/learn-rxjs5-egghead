@@ -17,5 +17,4 @@ baz: ---4---4---4---4---4---...
 */
 const foo = Rx.Observable.interval(1000)
 const baz = foo.mapTo(4)
-
 ```
