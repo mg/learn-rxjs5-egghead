@@ -24,6 +24,8 @@
 - ``mapTo``
 - ``scan``
 - ``buffer``
+- ``bufferCount``
+- ``bufferTime``
 - ``delay``
 - ``delayWhen``
 - ``debounce``
