@@ -12,7 +12,7 @@ foo:  --a--b--c--d--(2|)
 bar:  --A--B--C--D--(Z|)
       catch(err => |)
 baz:  --A--B--C--D--|
-      catch(err => ----...)
+      catch(err => ---...)
 bam:  --A--B--C--D------...
 */
 const foo = Rx.Observable.interval(500).take(5)
