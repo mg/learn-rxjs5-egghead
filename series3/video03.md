@@ -4,8 +4,6 @@
 
 We can use the **observer** methods of the **subject** (``next``, ``error``, and ``complete``) to manually control the **observers**. When manually controlling observables, we must be careful not to violate the observable contract (i.e. sending more than one of error and complete events).
 
-####
-
 ```js
 const subject = new Rx.Subject()
 
