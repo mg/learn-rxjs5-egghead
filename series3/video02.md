@@ -1,4 +1,5 @@
 # Subject: an Observable and Observer hybrid
+
 [Video](https://egghead.io/lessons/rxjs-subject-an-observable-and-observer-hybrid)
 
 We want Observer A and Observer B see the same **execution** of the observable. The **Subject** is a hybrid construct, both an observable and observer. It has all the operators an observable has plus all the observer methods (``next``, ``error``, and ``complete``).
