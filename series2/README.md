@@ -1,3 +1,5 @@
+# RxJS Beyond the Basics: Operators in Depth
+
 ##### Filtering operators:
 - ``filter``
 - ``take``
