@@ -1,10 +1,8 @@
 # BehaviorSubject: representing a value of time
 
-**BehaviorSubject** always has a current value, either the last value observed or an initial value supplied on construction. Very useful to model **value-over-time** (e.g. your age) as opposed to an **event stream** (e.g. your birthday).
-
 [Video](https://egghead.io/lessons/rxjs-behaviorsubject-representing-a-value-over-time)
 
-####
+**BehaviorSubject** always has a current value, either the last value observed or an initial value supplied on construction. Very useful to model **value-over-time** (e.g. your age) as opposed to an **event stream** (e.g. your birthday).
 
 ```js
 const subject = new Rx.BehaviorSubject(0)
