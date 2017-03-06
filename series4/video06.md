@@ -6,6 +6,8 @@
 ``mergeMap(mapFn, resultSelectFn, n)`` does ``map()`` and then ``mergeAll()``. Accepts **n** as an optional parameter, same as **mergeAll** did. Also accepts an optional result selector function (<outer>, <inner>) => <value>, where outer and inner are the values from the outer and inner observables respectively. **flatMap** is exactly the same as **mergeMap**.
 
 ```js
+const click$ = Rx.Observable.fromEvent(document, 'click')
+
 const performRequest = () =>
   fetch('https://mylocation/mydata')
     .then(res => res.json())
