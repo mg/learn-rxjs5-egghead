@@ -6,6 +6,8 @@
 ``concatMap(mapFn, resultSelectFn)`` does ``map()`` and then ``concatAll()``. Same as ``mergeMap()`` where **n** is equal to **1**.
 
 ```js
+const click$ = Rx.Observable.fromEvent(document, 'click')
+
 const performRequest = () =>
   fetch('https://mylocation/mydata')
     .then(res => res.json())
